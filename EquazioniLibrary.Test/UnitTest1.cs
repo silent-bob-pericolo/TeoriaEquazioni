@@ -28,7 +28,7 @@ namespace EquazioniLibrary.Test
             double a = 0;
             bool valoreAspettato = false;
             bool controlloValore = Equazioni.IsDegree2(a);
-            Assert.AreEqual(valoreAspettato, controlloValore);
+            Assert.AreEqual (valoreAspettato, controlloValore);
         }
 
 
