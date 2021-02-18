@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquazioniLibrary", "EquazioniLibrary\EquazioniLibrary.csproj", "{CC7A1A2A-E2AF-4080-98C1-AA8D103A0DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquazioniLibrary.Test", "EquazioniLibrary.Test\EquazioniLibrary.Test.csproj", "{B46E741D-BE3C-4156-88ED-5C9F30004EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7A1A2A-E2AF-4080-98C1-AA8D103A0DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7A1A2A-E2AF-4080-98C1-AA8D103A0DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7A1A2A-E2AF-4080-98C1-AA8D103A0DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7A1A2A-E2AF-4080-98C1-AA8D103A0DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46E741D-BE3C-4156-88ED-5C9F30004EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46E741D-BE3C-4156-88ED-5C9F30004EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46E741D-BE3C-4156-88ED-5C9F30004EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46E741D-BE3C-4156-88ED-5C9F30004EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A32B90D-E864-4C4B-B6AC-E1A2E05DF10A}
+	EndGlobalSection
+EndGlobal
