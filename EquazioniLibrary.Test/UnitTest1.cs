@@ -30,6 +30,17 @@ namespace EquazioniLibrary.Test
             bool controlloValore = Equazioni.IsDegree2(a);
             Assert.AreEqual (valoreAspettato, controlloValore);
         }
+        [TestMethod]
+        public void EquazioneDelta()
+        {
+            double a = 3;
+            double b = 6;
+            double c = 8;
+            double valoreAspettato = -60;
+            double controlloValore = Equazioni.Delta(a, b, c);
+            Assert.AreEqual(valoreAspettato, controlloValore);
+        }
+
 
 
     }
